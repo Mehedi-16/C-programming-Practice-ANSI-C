@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+long int A,B,i,sum=0,sum1=0,sum2=0;
+scanf("%ld%ld",&A,&B);
+if(A<B)
+{
+for(i=A;i<=B;i++)
+{
+sum=sum+i;
+if(i%2==0)
+{
+    sum1=sum1+i;
+}
+if(i%2!=0)
+{
+    sum2=sum2+i;
+}
+}
+}
+if(A>B)
+{
+for(i=A;i>=B;i--)
+{
+sum=sum+i;
+if(i%2==0)
+{
+    sum1=sum1+i;
+}
+if(i%2!=0)
+{
+    sum2=sum2+i;
+}
+}
+}
+printf("%ld\n",sum);
+printf("%ld\n",sum1);
+printf("%ld\n",sum2);
+}
