@@ -1,16 +1,11 @@
-#include <stdio.h>
-
-int main() 
+#include<stdint.h>
+#include<math.h>
+int main()
 {
-
-  double n1, n2, n3;
-
-  printf("Enter three different numbers: ");
-  scanf("%lf %lf %lf", &n1, &n2, &n3);
-  if (n1 >= n2 && n1 >= n3)
-    printf("%.2f is the largest number.", n1);
-  if (n2 >= n1 && n2 >= n3)
-    printf("%.2f is the largest number.", n2);
-  if (n3 >= n1 && n3 >= n2)
-    printf("%.2f is the largest number.", n3);
+float a,b,c,x1,x2;
+printf("Enter (abc) number ");
+scanf("%f%f%f",&a,&b,&c);
+x1=(-b+sqrt(b*b-4*a*c))/(2*a);
+x2=(-b-sqrt(b*b-4*a*c))/(2*a);
+printf("x1=%f x2=%f",x1,x2);
 }

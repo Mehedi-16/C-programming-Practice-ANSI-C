@@ -8,7 +8,7 @@ for(i=1;i<=row;i++)
 {
 for(j=1;j<=i;j++)
 {
-printf("%c",64+j);
+printf("%d",j);
 }
 printf("\n");
 }
