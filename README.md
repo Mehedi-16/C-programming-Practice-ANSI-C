@@ -27,8 +27,11 @@ This README provides an overview of C-code, highlighting its features, installat
 To install the project, follow these steps:
 
 $ git clone https://github.com/Mehedi-16/C-code/
+
 $ cd C-code
+
 $ make
+
 $ make install
 
 ## Usage
