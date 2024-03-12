@@ -30,14 +30,15 @@ $ git clone https://github.com/Mehedi-16/C-code/
 $ cd C-code
 $ make
 $ make install
-Usage
+
+## Usage
+
 To use the project, follow these guidelines:
-
-
 Fork the project.
 Create a new branch (git checkout -b feature/AmazingFeature).
 Commit your changes (git commit -am 'Add some AmazingFeature').
 Push to the branch (git push origin feature/AmazingFeature).
 Open a pull request.
-License
+
+## License
 This project is licensed under the MIT License.
